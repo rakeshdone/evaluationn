@@ -1,0 +1,2 @@
+create table user(id int primary key auto_increment, name varchar(30), email varchar(30), password varchar(155),create_ate datetime DEFAULT current_timestamp());
+create table menu_item(id int primary key auto_increment, item_name varchar(40),description varchar(40),price decimal(10,2),category varchar(50),image varchar(50),user_id int);
